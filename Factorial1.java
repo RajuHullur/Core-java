@@ -7,6 +7,6 @@ class Factorial{
    //factorial=factorial*i;
    factorial*=i;
    }
-   System.out.printf("Factorial of %d = %d", num,factorial);
+   System.out.println("factorial of %d =%d", num,factorial);
 }
 }
