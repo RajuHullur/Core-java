@@ -1,0 +1,136 @@
+Class Test
+
+1)- Collections is Strore group of object
+     *Collections is class and interfece
+     *collections non primitive data type
+	 *Collections is 
+	 
+	Iterable
+	-Hirachy-
+	Collections-
+	list & Set Queue & SortedSet These are interfece
+	ArrayList  vector  LinkedList  PrimaryQueue HashSet TreeSet   These are classes
+	
+	2)-MapInteface is implemented by  
+	  *put 
+	  *get
+	  *remove
+	  *size
+	
+	
+	
+	3)*HashSet- is Preidefined class
+	   -hash set allows a null object
+	  - hash using compare to two objects
+	
+	  *TreeSet- is Pridefined class
+	  -TreeSet compare method for comparing to objects
+	  -tree set does not allows null  objects
+	  
+	  
+    4)*
+	
+	5)*Failsafe iterator allow modificatins collections while iterating over iterating
+	   *The Failsafe  doesnt throws any exception
+	   
+	   * Failfast iterator  concurentModificationException
+	   * iterator dont required extra memory
+
+     8)-split 
+        *join 
+        *split to lisy of char
+         *array to map
+		 
+     9)  Spring core of the frame work the power features such as
+	 inversion of control and dependency injection
+	 
+	 10) dependency injection is java is maneged by thre  objects and inject into any ohter objects
+	 
+	 
+	 11)String Buffer is Synchornized  thread safe
+	   String less efficint than stringBulider
+	   
+	 13) * StringBulider is non-Synchornized
+	   *stringBulider is more efficint thsn stringBulider
+	   
+	 14)  Beanfactory  contains doesnt support the features
+	    1Beanfactory contains only scope of two objects
+	 
+
+     * ApplicationContext  container supports
+      *applicationContext	create objects
+	  *) ApplicationContext container supports all the  bean scope
+	  
+   15)Ioc - invertion of conversion 
+   * @Component  isclass level  a indication of spring  and 
+	spring maneged by the all components
+	
+	
+	*@componentScan - is use to without arguments  and sCAN
+	 the current package and ll sub package
+	 
+	 
+	 @BEAN--SAME CLASS BY calling the method them  dirctly
+	 is maneged by the spring 
+	 
+	 
+	 
+	 20)--public class RemoveFirstAndlastElements {
+	public static void main(String[] args) {
+		
+		//creating linked list
+		LinkedList<String>list=new LinkedList<String>();
+		
+		//using add() method to add elements
+		list.add("Xworkz");
+		list.add("Collections");
+		list.add("Exception");
+		list.add("Inheritance");
+		list.add("Polymorphism");
+		 
+		//creating linked list
+		System.out.println("LinkedList:\t" +list);
+		
+		//remove the last element  removelast()
+		System.out.println("The last element is removed:\t"+list.removeLast());
+		System.out.println("-------------------------------------");
+		
+    	//showing the final list
+		System.out.println("Final linkedList:\t" +list);
+		System.out.println("_____________________________________");
+		
+		//remove the first element
+		System.out.println("The First Element is removed:\t"+list.removeFirst());
+		System.out.println("_____________________________________");
+		
+		//"showing the final list"
+		System.out.println("Final linkedList:\t" + list);
+		System.out.println("_______________________________________");	
+				
+	}
+
+}
+	 
+	  
+	
+	   
+	   
+ 
+	
+      	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
